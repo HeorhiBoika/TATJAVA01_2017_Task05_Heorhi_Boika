@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.epam.com/menuSchema"
+        xmlns:mn="http://www.epam.com/menuSchema">
+    <element name="menu" type="mn:menuType" />
+
+    <complexType name="menuType">
+        <sequence>
+            <element name="coldSnacks" maxOccurs="unbounded">
+                <complexType>
+                    <sequence>
+                        <element name="photo" type="anyURI"/>
+                        <element name="name" type="mn:NameType"/>
+                        <element name="explain" minOccurs="0">
+                            <complexType>
+                                <sequence>
+                                    <element name="explainFirst" type="string" minOccurs="0"/>
+                                    <element name="explainSecond" type="string" minOccurs="0"/>
+                                    <element name="explainThird" type="string" minOccurs="0"/>
+                                </sequence>
+                            </complexType>
+                        </element>
+                        <element name="weight" type="string"/>
+                        <element name="price" minOccurs="0">
+                            <complexType>
+                                <sequence>
+                                    <element name="priceFirst" type="double" minOccurs="0"/>
+                                    <element name="priceSecond" type="double" minOccurs="0"/>
+                                    <element name="priceThird" type="double" minOccurs="0"/>
+                                </sequence>
+                            </complexType>
+                        </element>
+                    </sequence>
+                </complexType>
+            </element>
+            <element name="hotSnacks" maxOccurs="unbounded">
+                <complexType>
+                    <sequence>
+                        <element name="photo" type="anyURI"/>
+                        <element name="name" type="mn:NameType"/>
+                        <element name="explain" minOccurs="0">
+                            <complexType>
+                                <sequence>
+                                    <element name="explainFirst" type="string" minOccurs="0"/>
+                                    <element name="explainSecond" type="string" minOccurs="0"/>
+                                </sequence>
+                            </complexType>
+                        </element>
+                        <element name="weight" type="string"/>
+                        <element name="price" minOccurs="0">
+                            <complexType>
+                                <sequence>
+                                    <element name="priceFirst" type="double" minOccurs="0"/>
+                                    <element name="priceSecond" type="double" minOccurs="0"/>
+                                </sequence>
+                            </complexType>
+                        </element>
+                    </sequence>
+                </complexType>
+            </element>
+            <element name="breakfast" maxOccurs="unbounded">
+                <complexType>
+                    <sequence>
+                        <element name="photo" type="anyURI"/>
+                        <element name="name" type="mn:NameType"/>
+                        <element name="explain" type="string" minOccurs="0"/>
+                        <element name="weight" type="string"/>
+                        <element name="price" type="double" minOccurs="0"/>
+                    </sequence>
+                </complexType>
+            </element>
+        </sequence>
+    </complexType>
+    <simpleType name="NameType">
+        <restriction base="string">
+            <pattern value="[a-zA-Z\s]+"/>
+        </restriction>
+    </simpleType>
+</schema>

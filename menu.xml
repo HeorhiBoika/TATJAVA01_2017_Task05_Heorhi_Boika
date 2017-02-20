@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mn:menu xmlns:mn="http://www.epam.com/menuSchema"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.epam.com/menuSchema
+menuSchema.xsd">
+    <coldSnacks>
+        <photo>https://yandex.by/images/search?text=%D1</photo>
+        <name>Assorti fish</name>
+        <explain>
+            <explainFirst>Sald</explainFirst>
+        </explain>
+        <weight>100/20/15</weight>
+        <price>
+            <priceFirst>0.0</priceFirst>
+        </price>
+    </coldSnacks>
+    <coldSnacks>
+        <photo>https://yandex.by/images/search?text=%D2</photo>
+        <name>Tartlets with red caviar</name>
+        <explain>
+            <explainFirst>Tartlets with red caviar</explainFirst>
+        </explain>
+        <weight>60/50</weight>
+        <price>
+            <priceFirst>0.0</priceFirst>
+        </price>
+    </coldSnacks>
+    <coldSnacks>
+        <photo>https://yandex.by/images/search?text=%D3</photo>
+        <name>Russian snacks</name>
+        <explain>
+            <explainFirst>Pieces of atlantic herring with potatoes,onion,limon</explainFirst>
+        </explain>
+        <weight>70/50/2/10</weight>
+        <price>
+            <priceFirst>0.0</priceFirst>
+        </price>
+    </coldSnacks>
+    <coldSnacks>
+        <photo>https://yandex.by/images/search?text=%D4</photo>
+        <name>Chicken roll</name>
+        <explain>
+            <explainFirst>Chicken roll our cooking</explainFirst>
+        </explain>
+        <weight>100/5</weight>
+        <price>
+            <priceFirst>0.0</priceFirst>
+        </price>
+    </coldSnacks>
+    <coldSnacks>
+        <photo>https://yandex.by/images/search?text=%D5</photo>
+        <name>Basturma</name>
+        <explain>
+            <explainFirst>Beef</explainFirst>
+        </explain>
+        <weight>50/5</weight>
+        <price>
+            <priceFirst>0.0</priceFirst>
+        </price>
+    </coldSnacks>
+    <hotSnacks>
+        <photo>https://yandex.by/images/search?text=%D6</photo>
+        <name>Lobio with mushrooms</name>
+        <explain>
+            <explainFirst>Beans with mushrooms and nuts</explainFirst>
+        </explain>
+        <weight>150/50</weight>
+        <price>
+            <priceFirst>105</priceFirst>
+        </price>
+    </hotSnacks>
+    <hotSnacks>
+        <photo>https://yandex.by/images/search?text=%D7</photo>
+        <name>Julienne</name>
+        <explain>
+            <explainFirst>Chicken</explainFirst>
+            <explainSecond>Mushrooms</explainSecond>
+        </explain>
+        <weight>120/1</weight>
+        <price>
+            <priceFirst>145</priceFirst>
+            <priceSecond>155</priceSecond>
+        </price>
+    </hotSnacks>
+    <breakfast>
+        <photo>https://yandex.by/images/search?text=%D10</photo>
+        <name>Pancakes with meat</name>
+        <explain>Fried pancakes with meat</explain>
+        <weight>150</weight>
+        <price>0.0</price>
+    </breakfast>
+    <breakfast>
+        <photo>https://yandex.by/images/search?text=%D8</photo>
+        <name>Fried egg</name>
+        <explain>
+            Two eggs(On the choice:bacon, cheese, tomatoes)
+        </explain>
+        <weight>150</weight>
+        <price>0.0</price>
+    </breakfast>
+    <breakfast>
+        <photo>https://yandex.by/images/search?text=%D9</photo>
+        <name>Omelet</name>
+        <explain></explain>
+        <weight>100</weight>
+        <price>3.0</price>
+    </breakfast>
+</mn:menu>
+
